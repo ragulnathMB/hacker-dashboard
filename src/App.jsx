@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SignUp from './Components/Signup/Signup'
 import Login from './Components/Login/Login'
+import GitTracker from './Components/GitTracker/GitTracker'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <GitTracker/>
     <SignUp/>
       <Login/>
     </>
