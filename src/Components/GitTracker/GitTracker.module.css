@@ -8,6 +8,7 @@
     background: linear-gradient(to bottom,black,rgb(101, 101, 101));
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    color: white;
 }
 
 .trackerHeader {
@@ -38,10 +39,6 @@
     border: 1px solid #cce0ff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.commitItem strong {
-    color: white;
 }
 
 .commitItem:not(:last-child) {
