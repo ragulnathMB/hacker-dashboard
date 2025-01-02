@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.gitTrackerContainer {
+    width: 30%;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: "Oxanium", serif;
+    padding: 20px;
+    background: linear-gradient(to bottom,black,rgb(101, 101, 101));
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.trackerHeader {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.trackerHeader h1 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.resultsContainer {
+    margin-top: 20px;
+}
+
+.commitList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.commitItem {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #cce0ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.commitItem strong {
+    color: white;
+}
+
+.commitItem:not(:last-child) {
+    margin-bottom: 15px;
+}
