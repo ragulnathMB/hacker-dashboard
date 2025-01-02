@@ -24,6 +24,15 @@ const callRestApi = async () => {
             </li>
         )
     );
+
+    // disregard old commit items
+    let maxLength = 4;
+    let length = Object.keys(arrayOfLists).length;
+    if (Object.keys(arrayOfLists).length > maxLength) {
+        for(let i = maxLength-1; i < length; i++) {
+            delete arrayOfLists[Object.keys(arrayOfLists)[i]];
+        }
+    }
     return arrayOfLists;
 };
 
